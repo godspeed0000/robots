@@ -14,22 +14,22 @@ const pages = ['How it works', 'Get Started', 'FAQ'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+  // const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+  // const handleOpenUserMenu = (event) => {
+  //   setAnchorElUser(event.currentTarget);
+  // };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+  // const handleCloseUserMenu = () => {
+  //   setAnchorElUser(null);
+  // };
 
   return (
     <AppBar position='static' sx={{ backgroundColor: '#6d1ed4' }}>
@@ -100,7 +100,7 @@ function ResponsiveAppBar() {
               flexGrow: 1,
             }}
           >
-            <img src='https://img1.wsimg.com/isteam/ip/37adf295-dd4f-4132-b817-2ddccacd4893/ge.jpeg/:/rs=w:90,h:70' />
+            <img alt='' src='https://img1.wsimg.com/isteam/ip/37adf295-dd4f-4132-b817-2ddccacd4893/ge.jpeg/:/rs=w:90,h:70' />
           </Typography>
           {/* <Box
             sx={{
