@@ -56,7 +56,7 @@ const App = () => {
               </Typography>
             </Box>
             <Box px='15px' mt='43px'>
-              <a href='tel:+1-8444250085' style={{ textDecoration: 'none' }}>
+              <a href='tel:+1-8665521810' style={{ textDecoration: 'none' }}>
                 <Button
                   sx={{
                     backgroundColor: 'rgb(129, 93, 255)',
@@ -102,7 +102,7 @@ const App = () => {
                 Customer Service
               </Typography>
               <Typography sx={{ color: 'white', fontFamily: 'system-ui', fontWeight: '600', fontSize: '2rem'}}>
-                +1(888)XTZ-ABCD
+                +1-8665521810
               </Typography>
             </Box>
             <Box>
