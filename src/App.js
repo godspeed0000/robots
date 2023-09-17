@@ -102,7 +102,7 @@ const App = () => {
                 Customer Service
               </Typography>
               <Typography sx={{ color: 'white', fontFamily: 'system-ui', fontWeight: '600', fontSize: '2rem'}}>
-                +1-8665521810
+                +1-8888750477
               </Typography>
             </Box>
             <Box>
